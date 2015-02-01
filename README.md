@@ -45,9 +45,10 @@ Linux Cooked interface使用编译（venetX，OpenVZ）： sh build.sh -DCOOKED 
 
 ps:
 ```shell
-   38  apt-get install libnet1
-   39  apt-get install libpcap0.8
-   40  apt-get install libnet1-dev
-   41  apt-get install libpcap0.8-dev
-   42  sh build.sh -DCOOKED
+   apt-get install libnet1
+   apt-get install libpcap0.8
+   apt-get install libnet1-dev
+   apt-get install libpcap0.8-dev
+   apt-get install libpcap-dev
+   sh build.sh -DCOOKED
 ```
